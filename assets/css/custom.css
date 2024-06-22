@@ -1,0 +1,449 @@
+.bg-navbar {
+    background-color: #f3f3f3;
+}
+
+.vertical-line {
+    width: 1px;
+    /* Line width */
+    background-color: #51C2D5;
+    /* Line color */
+    height: 35px;
+    /* Override in-line if you want specific height. */
+    float: left;
+    /* Causes the line to float to left of content. You can instead use position:absolute or display:inline-block if this fits better with your design */
+}
+
+.vertical-line2 {
+    width: 1px;
+    /* Line width */
+    background-color: #fff;
+    /* Line color */
+    height: 35px;
+
+}
+
+
+@media (max-width: 1023px) {
+    .vertical-line {
+        width: 1px;
+        /* Line width */
+        background-color: #51C2D5;
+        /* Line color */
+        height: 35px;
+        /* Override in-line if you want specific height. */
+        float: left;
+        /* Causes the line to float to left of content. You can instead use position:absolute or display:inline-block if this fits better with your design */
+        display: none;
+    }
+}
+
+.menu {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+.card-container {
+    background-color: #f3f3f3;
+}
+
+.text-card {
+    font-size: 14px;
+    text-align: justify;
+}
+
+.propuestas {
+    background-color: #a20a0a;
+    color: #fff;
+    height: 300px;
+}
+
+.icon {
+    display: block !important;
+
+}
+
+.btn-partida {
+    background-color: #a20a0a;
+    color: #fff;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.bg-footer {
+    background-color: #52A4A4;
+    color: #fff;
+    height: 120px;
+}
+
+.subrayado {
+    border-bottom: 4px solid #D80F22;
+
+}
+
+.btn-partida {
+    background-color: #52A4A4;
+    color: #fff;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btn-partida:hover {
+    background-color: #999999 !important;
+    color: white !important;
+    font-weight: bold;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btn-whatssap:hover {
+    background-color: #999999 !important;
+    color: white !important;
+    font-weight: bold;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+
+.vl {
+    border-left: 3px solid white;
+    height: 40px;
+    left: 50%;
+    margin-left: 15px;
+    margin-top: 5px;
+    top: 0;
+}
+
+.icon-footer {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.icon i {
+    color: #fff;
+    padding: 10px;
+}
+
+@media (max-width: 575px) {
+
+    .card-body-custom {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important
+    }
+
+    .card-custom {
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    .text-mobile h2 {
+        text-align: center !important;
+    }
+
+    .esconder {
+        display: none;
+    }
+
+    .carousel {
+        display: block !important;
+    }
+
+    .margen-card1 {
+        margin-left: 0px !important;
+    }
+
+    .text-experiencias p {
+        color: #999999;
+        font-size: 12px !important;
+    }
+
+    .imagen-width {
+        width: 158px !important;
+        height: 158px !important;
+    }
+
+    .imagen-repeat img {
+        display: none;
+    }
+
+    .opinion {
+        display: flex !important;
+        justify-content: center !important;
+        margin-left: 0px !important;
+    }
+
+    .tamaño {
+        height: 220px !important;
+    }
+
+    .tamaño-card {
+        height: 130px !important;
+    }
+
+    .tamaño-card2 {
+        height: 120px !important;
+    }
+
+    .text-jugadas {
+        font-size: 14px !important;
+        text-align: center !important;
+    }
+
+    .bg-footer {
+        background-color: #52A4A4;
+        color: #fff;
+        height: 360px;
+    }
+
+    .vl {
+        border-left: 3px solid white;
+        height: 40px;
+        left: 50%;
+        margin-left: 15px;
+        margin-top: 5px;
+        top: 0;
+        display: none;
+    }
+
+    .logo-footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .text-footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .relleno-footer {
+        padding: 12px !important;
+    }
+
+    .centrar {
+        display: flex;
+        justify-content: center !important;
+    }
+
+    .ajedrez {
+        display: flex !important;
+        justify-content: center !important;
+        margin-bottom: 10px;
+    }
+
+    .margen-nombre {
+        margin-left: 20px;
+    }
+
+    .text-titulo h2 {
+        font-size: 28px;
+    }
+
+    .titulos-propuestas h3 {
+        font-size: 22px;
+    }
+
+    .icono-orden i {
+        display: flex;
+        align-items: center;
+    }
+
+    .text {
+        font-size: 6px !important;
+    }
+
+
+}
+
+.bg-propuestas {
+    background-color: #f3f3f3;
+}
+
+.bg-form {
+    background-color: #f3f3f3 !important;
+}
+
+.btn-whatssap {
+    background-color: #52A4A4;
+    color: #fff;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.img-reyes {
+    height: 271px !important;
+}
+
+.logo-menu {
+    width: 150px;
+    height: 75px;
+}
+
+.lista ul li {
+    color: #333333;
+    font-weight: bold;
+}
+
+.jugadas {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #000;
+}
+
+.jugadas:hover .overlay {
+    opacity: 0.8;
+}
+
+.text {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-experiencias b {
+    color: #999999;
+    font-size: 14px;
+}
+
+.text-experiencias p {
+    color: #999999;
+    font-size: 14px;
+}
+
+
+
+
+.bg-tablero {
+    background-image: url("../img/fondo-tablero.png");
+    background-repeat: no-repeat;
+    background-position: end;
+    background-size: cover;
+    width: 100%;
+    height: 50%;
+}
+
+.color-icon {
+    color: #52A4A4;
+}
+
+.card-2 {
+    border: none !important;
+    background-color: #f3f3f3 !important;
+}
+
+.padding-card {
+    padding: 20px !important;
+}
+
+.card-list ul li {
+    color: #52A4A4;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.card-list ul {
+    padding-inline-start: 25px !important;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .text-experiencias p {
+        color: #999999;
+        font-size: 12px !important;
+    }
+
+    .tamaño {
+        height: 215px !important;
+    }
+
+    .tamaño-card {
+        height: 180px !important;
+    }
+
+    .tamaño-card2 {
+        height: 230px !important;
+    }
+
+    .imagen-repeat {
+        display: none;
+    }
+}
+
+.tamaño-icon i {
+    font-size: 20px;
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .imagen-repeat {
+        display: none !important;
+
+
+    }
+}
+
+.carousel {
+    display: none;
+}
+
+.carousel-indicators {
+    top: 350px !important;
+}
+
+.carousel-indicators li {
+    background-color: black !important;
+}
+
+.text-cursiva p {
+    font-style: italic;
+    font-size: 18px;
+
+}
+
+.text-cursiva2 {
+    font-style: italic;
+
+
+}
+
+.card-text-opinion a {
+    text-decoration: none !important;
+    list-style-type: none !important;
+    color: #fff !important;
+    font-weight: bold !important;
+}
+
+.card-body-custom {
+    display: flex !important;
+    align-items: center !important
+}
+
+.modal-header-custom {
+    border-bottom: none !important;
+}
+
+/* .modal-lg {
+    width: 620px !important;
+} */
